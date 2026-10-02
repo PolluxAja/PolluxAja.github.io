@@ -1,0 +1,28 @@
+body {
+  background-image: url('Back2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-color: white;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  background: hwb(0 100% 0%);
+  padding: 20px;
+  border-radius: 20px;
+  color: hwb(0 73% 25%);
+  box-shadow: 0 12px 15px rgba(0, 0, 0, 1);
+}
+
+.home-container a {
+  font-family: Arial, sans-serif;
+  color: lab(0% 0 0);
+}
